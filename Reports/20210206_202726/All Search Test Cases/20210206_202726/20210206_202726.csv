@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Search Test Cases,,,,2021-02-06 20:27:47,2021-02-06 20:27:59,11.234s,PASSED
+,,,,,,,
+Test Cases/SearchByID,,,,2021-02-06 20:27:48,2021-02-06 20:27:52,3.642s,PASSED
+location = searchLocation,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.002s,PASSED
+description = searchDescription,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+fullTime = searchFullTime,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+lat = latitude,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+longPar = longitude,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+location = location,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.314s,PASSED
+description = description,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.002s,PASSED
+fullTime = fullTime,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+latitude = lat,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.002s,PASSED
+longitude = longPar,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+"println(""GlobalVariable.location::: "" + location)",,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.004s,PASSED
+"println(""GlobalVariable.description::: "" + description)",,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+"println(""GlobalVariable.fullTime::: "" + fullTime)",,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+"println(""GlobalVariable.latitude::: "" + latitude)",,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.004s,PASSED
+"println(""GlobalVariable.longitude::: "" + longitude)",,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.002s,PASSED
+SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.001s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2021-02-06 20:27:49,2021-02-06 20:27:49,0.009s,PASSED
+if (!(toString().isEmpty()) || !(toString().isEmpty())),,,,2021-02-06 20:27:49,2021-02-06 20:27:51,1.894s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:51,2021-02-06 20:27:51,0.026s,PASSED
+SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()),,,,2021-02-06 20:27:51,2021-02-06 20:27:51,0.167s,PASSED
+"JobID = get(0).get(""id"")",,,,2021-02-06 20:27:51,2021-02-06 20:27:51,0.008s,PASSED
+"println(""JobID::: "" + JobID)",,,,2021-02-06 20:27:51,2021-02-06 20:27:51,0.001s,PASSED
+jobID = JobID,,,,2021-02-06 20:27:51,2021-02-06 20:27:51,0.000s,PASSED
+"SearchByIDRes = sendRequest(findTestObject(""Object Repository/SearchAPIs/positions""))",,,,2021-02-06 20:27:51,2021-02-06 20:27:52,0.768s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+,,,,,,,
+Test Cases/SearchByID,,,,2021-02-06 20:27:52,2021-02-06 20:27:53,1.533s,PASSED
+location = searchLocation,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+description = searchDescription,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+fullTime = searchFullTime,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+lat = latitude,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+longPar = longitude,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+location = location,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+description = description,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+fullTime = fullTime,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+latitude = lat,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+longitude = longPar,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+"println(""GlobalVariable.location::: "" + location)",,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+"println(""GlobalVariable.description::: "" + description)",,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+"println(""GlobalVariable.fullTime::: "" + fullTime)",,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+"println(""GlobalVariable.latitude::: "" + latitude)",,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+"println(""GlobalVariable.longitude::: "" + longitude)",,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.000s,PASSED
+if (!(toString().isEmpty()) || !(toString().isEmpty())),,,,2021-02-06 20:27:52,2021-02-06 20:27:52,0.001s,PASSED
+else,,,,2021-02-06 20:27:52,2021-02-06 20:27:53,0.795s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()),,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+"JobID = get(0).get(""id"")",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+"println(""JobID::: "" + JobID)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+jobID = JobID,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+"SearchByIDRes = sendRequest(findTestObject(""Object Repository/SearchAPIs/positions""))",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.705s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+,,,,,,,
+Test Cases/SearchByID,,,,2021-02-06 20:27:53,2021-02-06 20:27:56,2.102s,PASSED
+location = searchLocation,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+description = searchDescription,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+fullTime = searchFullTime,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+lat = latitude,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+longPar = longitude,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+location = location,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+description = description,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+fullTime = fullTime,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+latitude = lat,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+longitude = longPar,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+"println(""GlobalVariable.location::: "" + location)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+"println(""GlobalVariable.description::: "" + description)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+"println(""GlobalVariable.fullTime::: "" + fullTime)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+"println(""GlobalVariable.latitude::: "" + latitude)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+"println(""GlobalVariable.longitude::: "" + longitude)",,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.000s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2021-02-06 20:27:53,2021-02-06 20:27:53,0.001s,PASSED
+if (!(toString().isEmpty()) || !(toString().isEmpty())),,,,2021-02-06 20:27:53,2021-02-06 20:27:55,1.322s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:55,2021-02-06 20:27:55,0.002s,PASSED
+SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()),,,,2021-02-06 20:27:55,2021-02-06 20:27:55,0.006s,PASSED
+"JobID = get(0).get(""id"")",,,,2021-02-06 20:27:55,2021-02-06 20:27:55,0.001s,PASSED
+"println(""JobID::: "" + JobID)",,,,2021-02-06 20:27:55,2021-02-06 20:27:55,0.000s,PASSED
+jobID = JobID,,,,2021-02-06 20:27:55,2021-02-06 20:27:55,0.001s,PASSED
+"SearchByIDRes = sendRequest(findTestObject(""Object Repository/SearchAPIs/positions""))",,,,2021-02-06 20:27:55,2021-02-06 20:27:56,0.747s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+,,,,,,,
+Test Cases/SearchByID,,,,2021-02-06 20:27:56,2021-02-06 20:27:59,2.966s,PASSED
+location = searchLocation,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.000s,PASSED
+description = searchDescription,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+fullTime = searchFullTime,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.000s,PASSED
+lat = latitude,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.000s,PASSED
+longPar = longitude,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+location = location,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.002s,PASSED
+description = description,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+fullTime = fullTime,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.000s,PASSED
+latitude = lat,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+longitude = longPar,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.000s,PASSED
+"println(""GlobalVariable.location::: "" + location)",,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+"println(""GlobalVariable.description::: "" + description)",,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+"println(""GlobalVariable.fullTime::: "" + fullTime)",,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+"println(""GlobalVariable.latitude::: "" + latitude)",,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.002s,PASSED
+"println(""GlobalVariable.longitude::: "" + longitude)",,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.000s,PASSED
+SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.000s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.005s,PASSED
+if (!(toString().isEmpty()) || !(toString().isEmpty())),,,,2021-02-06 20:27:56,2021-02-06 20:27:56,0.001s,PASSED
+else,,,,2021-02-06 20:27:56,2021-02-06 20:27:58,2.095s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:58,2021-02-06 20:27:58,0.001s,PASSED
+SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()),,,,2021-02-06 20:27:58,2021-02-06 20:27:58,0.011s,PASSED
+"JobID = get(0).get(""id"")",,,,2021-02-06 20:27:58,2021-02-06 20:27:58,0.001s,PASSED
+"println(""JobID::: "" + JobID)",,,,2021-02-06 20:27:58,2021-02-06 20:27:58,0.001s,PASSED
+jobID = JobID,,,,2021-02-06 20:27:58,2021-02-06 20:27:58,0.000s,PASSED
+"SearchByIDRes = sendRequest(findTestObject(""Object Repository/SearchAPIs/positions""))",,,,2021-02-06 20:27:58,2021-02-06 20:27:59,0.812s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 20:27:59,2021-02-06 20:27:59,0.001s,PASSED

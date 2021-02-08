@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Search Test Cases" time="11.609" tests="4" failures="0" skips="0" errors="0">
+   <testsuite name="All Search Test Cases" tests="4" failures="0" errors="0" time="11.609" skips="0" timestamp="2021-02-06 20:27:47" hostname="admin - 192.168.100.134" id="Test Suites/All Search Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726"/>
+         <property name="logFiles" value="/Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.100.134"/>
+         <property name="hostAddress" value="192.168.100.134"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+      </properties>
+      <testcase name="Test Cases/SearchByID" time="3.642" classname="Test Cases/SearchByID" status="PASSED">
+         <system-out><![CDATA[2021-02-06 20:27:48 - [TEST_CASE][PASSED] - Test Cases/SearchByID: Test Cases/SearchByID
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - location = searchLocation: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - description = searchDescription: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - fullTime = searchFullTime: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - lat = latitude: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - longPar = longitude: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - location = location: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - description = description: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - fullTime = fullTime: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - latitude = lat: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - longitude = longPar: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - println("GlobalVariable.location::: " + location): null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - println("GlobalVariable.description::: " + description): null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - println("GlobalVariable.fullTime::: " + fullTime): null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - println("GlobalVariable.latitude::: " + latitude): null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - println("GlobalVariable.longitude::: " + longitude): null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - if (!(toString().isEmpty()) || !(toString().isEmpty())): null
+
+2021-02-06 20:27:49 - [TEST_STEP][PASSED] - SearchRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions.json - lat_long")): Send request successfully
+
+2021-02-06 20:27:51 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/0.har
+
+2021-02-06 20:27:51 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:51 - [TEST_STEP][PASSED] - println("lat_long API"): null
+
+2021-02-06 20:27:51 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:51 - [MESSAGE][PASSED] - Response status codes match
+
+2021-02-06 20:27:51 - [TEST_STEP][PASSED] - SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()): null
+
+2021-02-06 20:27:51 - [TEST_STEP][PASSED] - JobID = get(0).get("id"): null
+
+2021-02-06 20:27:51 - [TEST_STEP][PASSED] - println("JobID::: " + JobID): null
+
+2021-02-06 20:27:51 - [TEST_STEP][PASSED] - jobID = JobID: null
+
+2021-02-06 20:27:51 - [TEST_STEP][PASSED] - SearchByIDRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions")): Send request successfully
+
+2021-02-06 20:27:52 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/1.har
+
+2021-02-06 20:27:52 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:52 - [MESSAGE][PASSED] - Response status codes match]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SearchByID" time="1.533" classname="Test Cases/SearchByID" status="PASSED">
+         <system-out><![CDATA[2021-02-06 20:27:52 - [TEST_CASE][PASSED] - Test Cases/SearchByID: Test Cases/SearchByID
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - location = searchLocation: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - description = searchDescription: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - fullTime = searchFullTime: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - lat = latitude: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - longPar = longitude: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - location = location: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - description = description: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - fullTime = fullTime: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - latitude = lat: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - longitude = longPar: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - println("GlobalVariable.location::: " + location): null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - println("GlobalVariable.description::: " + description): null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - println("GlobalVariable.fullTime::: " + fullTime): null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - println("GlobalVariable.latitude::: " + latitude): null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - println("GlobalVariable.longitude::: " + longitude): null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - if (!(toString().isEmpty()) || !(toString().isEmpty())): null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - else: null
+
+2021-02-06 20:27:52 - [TEST_STEP][PASSED] - SearchRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions.json")): Send request successfully
+
+2021-02-06 20:27:53 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/2.har
+
+2021-02-06 20:27:53 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - println("location API"): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:53 - [MESSAGE][PASSED] - Response status codes match
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - JobID = get(0).get("id"): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - println("JobID::: " + JobID): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - jobID = JobID: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - SearchByIDRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions")): Send request successfully
+
+2021-02-06 20:27:53 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/3.har
+
+2021-02-06 20:27:53 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:53 - [MESSAGE][PASSED] - Response status codes match]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SearchByID" time="2.102" classname="Test Cases/SearchByID" status="PASSED">
+         <system-out><![CDATA[2021-02-06 20:27:53 - [TEST_CASE][PASSED] - Test Cases/SearchByID: Test Cases/SearchByID
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - location = searchLocation: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - description = searchDescription: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - fullTime = searchFullTime: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - lat = latitude: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - longPar = longitude: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - location = location: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - description = description: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - fullTime = fullTime: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - latitude = lat: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - longitude = longPar: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - println("GlobalVariable.location::: " + location): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - println("GlobalVariable.description::: " + description): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - println("GlobalVariable.fullTime::: " + fullTime): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - println("GlobalVariable.latitude::: " + latitude): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - println("GlobalVariable.longitude::: " + longitude): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - if (!(toString().isEmpty()) || !(toString().isEmpty())): null
+
+2021-02-06 20:27:53 - [TEST_STEP][PASSED] - SearchRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions.json - lat_long")): Send request successfully
+
+2021-02-06 20:27:55 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/4.har
+
+2021-02-06 20:27:55 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:55 - [TEST_STEP][PASSED] - println("lat_long API"): null
+
+2021-02-06 20:27:55 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:55 - [MESSAGE][PASSED] - Response status codes match
+
+2021-02-06 20:27:55 - [TEST_STEP][PASSED] - SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()): null
+
+2021-02-06 20:27:55 - [TEST_STEP][PASSED] - JobID = get(0).get("id"): null
+
+2021-02-06 20:27:55 - [TEST_STEP][PASSED] - println("JobID::: " + JobID): null
+
+2021-02-06 20:27:55 - [TEST_STEP][PASSED] - jobID = JobID: null
+
+2021-02-06 20:27:55 - [TEST_STEP][PASSED] - SearchByIDRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions")): Send request successfully
+
+2021-02-06 20:27:56 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/5.har
+
+2021-02-06 20:27:56 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:56 - [MESSAGE][PASSED] - Response status codes match]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SearchByID" time="2.966" classname="Test Cases/SearchByID" status="PASSED">
+         <system-out><![CDATA[2021-02-06 20:27:56 - [TEST_CASE][PASSED] - Test Cases/SearchByID: Test Cases/SearchByID
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - location = searchLocation: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - description = searchDescription: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - fullTime = searchFullTime: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - lat = latitude: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - longPar = longitude: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - location = location: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - description = description: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - fullTime = fullTime: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - latitude = lat: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - longitude = longPar: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - println("GlobalVariable.location::: " + location): null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - println("GlobalVariable.description::: " + description): null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - println("GlobalVariable.fullTime::: " + fullTime): null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - println("GlobalVariable.latitude::: " + latitude): null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - println("GlobalVariable.longitude::: " + longitude): null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - SearchRes = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - if (!(toString().isEmpty()) || !(toString().isEmpty())): null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - else: null
+
+2021-02-06 20:27:56 - [TEST_STEP][PASSED] - SearchRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions.json")): Send request successfully
+
+2021-02-06 20:27:58 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/6.har
+
+2021-02-06 20:27:58 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:58 - [TEST_STEP][PASSED] - println("location API"): null
+
+2021-02-06 20:27:58 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:58 - [MESSAGE][PASSED] - Response status codes match
+
+2021-02-06 20:27:58 - [TEST_STEP][PASSED] - SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()): null
+
+2021-02-06 20:27:58 - [TEST_STEP][PASSED] - JobID = get(0).get("id"): null
+
+2021-02-06 20:27:58 - [TEST_STEP][PASSED] - println("JobID::: " + JobID): null
+
+2021-02-06 20:27:58 - [TEST_STEP][PASSED] - jobID = JobID: null
+
+2021-02-06 20:27:58 - [TEST_STEP][PASSED] - SearchByIDRes = sendRequest(findTestObject("Object Repository/SearchAPIs/positions")): Send request successfully
+
+2021-02-06 20:27:59 - [MESSAGE][INFO] - HAR: /Users/admin/Katalon Studio/GitHubSearch/Reports/20210206_202726/All Search Test Cases/20210206_202726/requests/main/7.har
+
+2021-02-06 20:27:59 - [MESSAGE][PASSED] - Send request successfully
+
+2021-02-06 20:27:59 - [TEST_STEP][PASSED] - CommonKW().verifyStatusCode(SearchRes, 200): Response status codes match
+
+2021-02-06 20:27:59 - [MESSAGE][PASSED] - Response status codes match]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-06 20:27:47 - [TEST_SUITE][PASSED] - All Search Test Cases: Test Cases/SearchByID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

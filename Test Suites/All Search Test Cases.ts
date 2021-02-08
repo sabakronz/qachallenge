@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>All Search Test Cases</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>df88b384-4db8-4c82-b255-0afa0fd22006</testSuiteGuid>
+   <testCaseLink>
+      <guid>28a02fc5-00a1-40cf-9a4b-ad8847be59bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>856192fe-c267-4894-9db0-803a729b5406</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>856192fe-c267-4894-9db0-803a729b5406</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>location</value>
+         <variableId>0de4fa76-1864-4d5e-aa8a-70ad8f4f4342</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>856192fe-c267-4894-9db0-803a729b5406</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>086a27a9-05ed-4e07-8465-e17bddfdeac1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>856192fe-c267-4894-9db0-803a729b5406</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Full time</value>
+         <variableId>311c2780-afd0-4352-a23f-fc00c2c42271</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>856192fe-c267-4894-9db0-803a729b5406</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>latitude</value>
+         <variableId>e72a9f9e-ff74-42bc-a1f9-df2d11ff46bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>856192fe-c267-4894-9db0-803a729b5406</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>longitude</value>
+         <variableId>7971a149-70e5-4832-97f4-63d7866cd4ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>856192fe-c267-4894-9db0-803a729b5406</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PageNumber</value>
+         <variableId>0ebe17ed-021b-40a3-ade9-363282f4197f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>856192fe-c267-4894-9db0-803a729b5406</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Search</value>
+         <variableId>bf8b488e-38f1-48a2-95fa-0571674352af</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>667a200e-ce57-410c-b829-0e7f5cd4a3e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/SearchByID</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>baeca625-df66-4f59-9450-c24c1b948b66</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>baeca625-df66-4f59-9450-c24c1b948b66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>location</value>
+         <variableId>c01f9799-0b50-4449-9381-55ef5499f42a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>baeca625-df66-4f59-9450-c24c1b948b66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>c286e457-b6f1-4251-b3ff-4b8732ca5dd9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>baeca625-df66-4f59-9450-c24c1b948b66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Full time</value>
+         <variableId>dc24082d-c647-404f-aad4-147039c3b351</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>baeca625-df66-4f59-9450-c24c1b948b66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>latitude</value>
+         <variableId>c61e367d-e8d2-440b-8b62-b1afb19bf7e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>baeca625-df66-4f59-9450-c24c1b948b66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>longitude</value>
+         <variableId>12db7b5a-6bfc-4927-83be-322afbf82b91</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

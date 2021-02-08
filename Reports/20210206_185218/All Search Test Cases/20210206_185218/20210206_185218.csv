@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Search Test Cases,,,,2021-02-06 18:52:34,2021-02-06 18:52:44,10.610s,PASSED
+,,,,,,,
+Test Cases/Search,,,,2021-02-06 18:52:34,2021-02-06 18:52:40,5.271s,PASSED
+location = searchLocation,,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.001s,PASSED
+description = searchDescription,,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.001s,PASSED
+fullTime = searchFullTime,,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.001s,PASSED
+location = location,,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.166s,PASSED
+description = description,,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.000s,PASSED
+fullTime = fullTime,,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.001s,PASSED
+"println(""GlobalVariable.location::: "" + location)",,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.003s,PASSED
+"println(""GlobalVariable.description::: "" + description)",,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.001s,PASSED
+"println(""GlobalVariable.fullTime::: "" + fullTime)",,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.001s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2021-02-06 18:52:35,2021-02-06 18:52:35,0.006s,PASSED
+"SearchRes = sendRequest(findTestObject(""Object Repository/SearchAPIs/positions.json""))",,,,2021-02-06 18:52:35,2021-02-06 18:52:39,4.708s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 18:52:39,2021-02-06 18:52:40,0.023s,PASSED
+SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()),,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.021s,PASSED
+"println(""ID::: "" + get(0).get(""title""))",,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.006s,PASSED
+,,,,,,,
+Test Cases/Search,,,,2021-02-06 18:52:40,2021-02-06 18:52:42,2.634s,PASSED
+location = searchLocation,,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.003s,PASSED
+description = searchDescription,,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.001s,PASSED
+fullTime = searchFullTime,,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.001s,PASSED
+location = location,,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.000s,PASSED
+description = description,,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.000s,PASSED
+fullTime = fullTime,,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.001s,PASSED
+"println(""GlobalVariable.location::: "" + location)",,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.001s,PASSED
+"println(""GlobalVariable.description::: "" + description)",,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.001s,PASSED
+"println(""GlobalVariable.fullTime::: "" + fullTime)",,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.001s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2021-02-06 18:52:40,2021-02-06 18:52:40,0.000s,PASSED
+"SearchRes = sendRequest(findTestObject(""Object Repository/SearchAPIs/positions.json""))",,,,2021-02-06 18:52:40,2021-02-06 18:52:42,2.601s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.001s,PASSED
+SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()),,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.005s,PASSED
+"println(""ID::: "" + get(0).get(""title""))",,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.000s,PASSED
+,,,,,,,
+Test Cases/Search,,,,2021-02-06 18:52:42,2021-02-06 18:52:44,1.904s,PASSED
+location = searchLocation,,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.000s,PASSED
+description = searchDescription,,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.001s,PASSED
+fullTime = searchFullTime,,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.000s,PASSED
+location = location,,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.000s,PASSED
+description = description,,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.000s,PASSED
+fullTime = fullTime,,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.001s,PASSED
+"println(""GlobalVariable.location::: "" + location)",,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.000s,PASSED
+"println(""GlobalVariable.description::: "" + description)",,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.000s,PASSED
+"println(""GlobalVariable.fullTime::: "" + fullTime)",,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.001s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2021-02-06 18:52:42,2021-02-06 18:52:42,0.001s,PASSED
+"SearchRes = sendRequest(findTestObject(""Object Repository/SearchAPIs/positions.json""))",,,,2021-02-06 18:52:42,2021-02-06 18:52:44,1.883s,PASSED
+"CommonKW().verifyStatusCode(SearchRes, 200)",,,,2021-02-06 18:52:44,2021-02-06 18:52:44,0.001s,PASSED
+SearchResBody = slurper.parseText(SearchRes.getResponseBodyContent()),,,,2021-02-06 18:52:44,2021-02-06 18:52:44,0.002s,PASSED
+"println(""ID::: "" + get(0).get(""title""))",,,,2021-02-06 18:52:44,2021-02-06 18:52:44,0.001s,PASSED
